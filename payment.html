@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css">
+</head>
+<body>
+    
+    <div class="payment-body">
+        <div class="payments-card-div">
+            <div class="payments-info-div">
+                <img src="images/Mask Group 2@2x.png" alt="">
+                <div class="payments-info-text">
+                    <h3>You are donating to:</h3>
+                    <h2>Hunger Relief</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit venenatis rhoncus, imperdiet penatibus eu primis pellentesque fermentum litora.</p>
+                </div>
+            </div>
+    
+            <div class="payments-form-div">
+                <div class="payments-form-header">
+                    <h6>STEP 3</h6>
+                    <h2>Make payment</h2>
+                    <p>
+                        Select your preferred payment method and proceed to checkout!
+                    </p>
+                </div>
+                <div class="payment-form-content">
+                    <ul>
+                        <li class="payments-tab-div">
+                            <input class="payment-type-radio" id="mpesa" name="payment-group" type="radio" checked>
+                            <input class="payment-type-radio" id="card" name="payment-group" type="radio">
+                            <input class="payment-type-radio" id="paypal" name="payment-group" type="radio">
+                            <div class="payment-tabs">
+                                <label class="p-tab" id="mpesa-tab" for="mpesa">Mpesa</label>
+                                <label class="p-tab" id="card-tab" for="card">Card</label>
+                                <label class="p-tab" id="paypal-tab" for="paypal">Paypal</label>
+                            </div>
+                            <div class="payment-panels">
+                                <div class="panel" id="panel-one">
+                                    <div class="payment-amount-div">
+                                        <h4 class="donation-h5">Pay using MPESA</h4>
+                                        <h5 class="donation-h5">Enter your own amount</h5>
+                                        <input type="number" placeholder="KES 5,000" class="donation-input">
+                                        <button type="submit" class="payment-amount-button">Donate KES 5,000</button>
+                                    </div>
+                                </div>
+                                <div class="panel" id="panel-two">
+                                    <div class="payment-form-div">
+                                        <h3>Pay Using Card</h3>
+                                        <p>Please enter your card details to pay using your card.</p>
+                                        <div class="content">
+                                            <form action="#">
+                                                <label for="card-name" class="card-holder-name">Card holder name</label>
+                                                <input type="text" class="card-name">
+                                                <label for="card-number" class="card-number">Card Number</label>
+                                                <input type="number" class="card-number">
+                                                <div class="user-details">
+                                                <div class="input-box">
+                                                    <span class="details">Expiry Date</span>
+                                                    <input type="text">
+                                                </div>
+                                                <div class="input-box">
+                                                    <span class="details">CVV</span>
+                                                    <input type="text">
+                                                </div>
+                                                </div>
+                                                <div class="payment-submit-button">
+                                                 Donate KES 5,000
+                                                </div>
+                                            </form>
+                                          </div>
+                                    </div>
+                                </div>
+                                <div class="panel" id="panel-three">
+                                    <button type="submit" class="paypal-button">Donate KES 5,000 with Paypal</button>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Forms</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css">
+</head>
+<body>
+    
+    <div class="forms-page-body">
+        <div class="donations-card-div">
+            <div class="donations-info-div">
+                <!-- <img src="images/Mask Group 2@2x.png" alt=""> -->
+                <div class="donations-info-text">
+                    <h5>You are donating to:</h5>
+                    <h3>Hunger Relief</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit venenatis rhoncus, imperdiet penatibus eu primis pellentesque fermentum litora.</p>
+                </div>
+            </div>
+    
+            <div class="donations-form-div">
+                <div class="donations-form-header">
+                    <h6>STEP 1</h6>
+                    <h2>Make a Donation</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit, torquent rhoncus pharetra tempus curabitur
+                    </p>
+                </div>
+                <div class="donation-form-content">
+                    <ul class="form-content-header">
+                        <li>
+                            <input type="radio" id="individual" name="person-type" value="individual">
+                            <label for="individual">Private Individual</label>
+                            <input type="radio" id="company" name="person-type" value="company">
+                            <label for="company">Company</label>
+                        </li>
+                        <li class="form-select-div-select">
+                            <div>
+                                <label>Select a cause</label><br>
+                                <select name="field4" class="field-select">
+                                    <option value="Hunger Relief">Hunger Relief 2020</option>
+                                    <option value="Hunger">Hunger</option>
+                                    <option value="Hunger Re">Drought</option>
+                                </select> 
+                            </div>
+                            <!-- <div>
+                                <label>Select a cause</label><br>
+                                <select name="field4" class="field-select">
+                                    <option value="KES">KES</option>
+                                    <option value="UGN">UGN</option>
+                                    <option value="ZAI">ZAI</option>
+                                </select> 
+                            </div> -->
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="payment-tab-div">
+                            <input class="radio" id="one" name="group" type="radio" checked>
+                            <input class="radio" id="two" name="group" type="radio">
+                            <div class="tabs">
+                                <label class="tab" id="one-tab" for="one">ONE TIME DONATION</label>
+                                <label class="tab" id="two-tab" for="two">MONTHLY DONATION</label>
+                            </div>
+                            <div class="panels">
+                                <div class="panel" id="one-panel">
+                                    <h4 class="donation-h5">Select an amount</h4>
+                                    <div class="donation-amount" id="butnns">
+                                        <button class="donation-amount-button" onclick="active(this)" id="donationAmount1">KES 500</button>
+                                        <button class="donation-amount-button" onclick="active(this)" id="donationAmount2">KES 1000</button>
+                                        <button class="donation-amount-button" onclick="active(this)" id="donationAmount3">KES 2000</button>
+                                        <button class="donation-amount-button" onclick="active(this)" id="donationAmount4">KES 5000</button>
+                                        <button class="donation-amount-button" onclick="active(this)" id="donationAmount5">KES 10000</button>
+                                        <button class="donation-amount-button" onclick="active(this)" id="donationAmount6">KES 15000</button>
+                                        <button class="donation-amount-button" onclick="active(this)" id="amountOth">Other</button>
+                                    </div>
+                                    <div class="donation-input-div" id="otherAmount">
+                                        <h5 class="donation-h5">Enter your own amount</h5>
+                                        <input type="number" placeholder="KES 5,000" class="donation-input">
+                                    </div>
+                                    <div id="continue-button">
+                                        <button type="submit" class="donation-button">Continue</button>
+                                    </div>
+                                    
+                                </div>
+                                <div class="panel" id="two-panel">
+                                    <h4 class="donation-h5">Select an amount</h4>
+                                        <div class="donation-amount" id="butns">
+                                            <button class="donation-amount-button" onclick="active2(this)" id="donationAm1">KES 500</button>
+                                            <button class="donation-amount-button" onclick="active2(this)" id="donationAm2">KES 1000</button>
+                                            <button class="donation-amount-button" onclick="active2(this)" id="donationAm3">KES 2000</button>
+                                            <button class="donation-amount-button" onclick="active2(this)" id="donationAm4">KES 5000</button>
+                                            <button class="donation-amount-button" onclick="active2(this)" id="donationAm5">KES 10000</button>
+                                            <button class="donation-amount-button" onclick="active2(this)" id="donationAm6">KES 15000</button>
+                                            <button class="donation-amount-button" onclick="active2(this)" id="amountOth2">Other</button>
+                                        </div>
+                                        <div class="donation-input-div" id="otherAmount2">
+                                            <h5 class="donation-h5">Enter your own amount</h5>
+                                            <input type="number" placeholder="KES 5,000" class="donation-input">
+                                        </div>
+                                        <div id="continue-button">
+                                            <button type="submit" class="donation-button">Continue</button>
+                                        </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="donations-card-div">
+            <div class="donations-info-div">
+                <!-- <img src="images/Mask Group 2@2x.png" alt=""> -->
+                <div class="donations-info-text">
+                    <h5>You are donating to:</h5>
+                    <h3>Hunger Relief</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit venenatis rhoncus, imperdiet penatibus eu primis pellentesque fermentum litora.</p>
+                </div>
+            </div>
+    
+            <div class="donations-form-div">
+                <div class="donations-form-header">
+                    <h6>STEP 2</h6>
+                    <h2>Enter Your Personal Details</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit, torquent rhoncus pharetra tempus curabitur
+                    </p>
+                </div>
+                <div class="details-form-content">
+                    <form action="#">
+                        <div class="form-row-div">
+                            <div class="input-form">
+                                <span class="details">First Name</span>
+                                <input type="text">
+                            </div>
+                            <div class="input-form">
+                                <span class="details">Last Name</span>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="form-row-div">
+                            <div class="input-form">
+                                <span class="details">First Name</span>
+                                <input type="text">
+                            </div>
+                            <div class="input-form">
+                                <span class="details">Last Name</span>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <label for="card-name" class="address-name-label"><span>Physical Address</span></label>
+                        <input type="text" class="address-name">
+                        <div class="form-row-div">
+                            <div class="input-form">
+                                <span class="details">City</span>
+                                <input type="text">
+                            </div>
+                            <div class="input-form">
+                                <span class="details">Country</span>
+                                <input type="text">
+                            </div>
+                        </div>
+                        
+                    </form>
+                    
+                </div>
+                <div class="chooeseDonateMethod">
+                    <input type="checkbox" class="donateAnoymously" onchange="valueChanged()">
+                    <label>Donate Anonymously</label>
+                </div>
+                
+                <p class="donation-info-label">You are donating KES 5,000 to Hunger Relief 2022</p>
+                <div class="form-row-div-but">
+                    <div class="payment-submit-button">
+                        Donate KES 5,000
+                       </div>
+                       <div class="payment-submit-button">
+                           Back
+                       </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <script>
+        function valueChanged()
+        {
+            if($('.donateAnoymously').is(":checked"))   
+                $(".details-form-content").hide();
+            else
+                $(".details-form-content").show();
+        }
+        function active(el) {
+            var btnn = document.getElementById('butnns').children;
+            for (let i = 0; i < btnn.length; i++) {
+                btnn[i].className = "donation-amount-button";
+            }
+            el.className = "donation-amount-button-active";
+        }
+    
+        function active2(el) {
+            var btnn = document.getElementById('butns').children;
+            for (let i = 0; i < btnn.length; i++) {
+                btnn[i].className = "donation-amount-button";
+            }
+            el.className = "donation-amount-button-active";
+        }
+    
+        $(document).ready(function() {
+            $('#amountOth').click(function(){
+                $('#otherAmount').show();
+            })
+    
+            $('#donationAmount1').click(function(){
+                $('#otherAmount').hide();
+            })
+    
+            $('#donationAmount2').click(function(){
+                $('#otherAmount').hide();
+            })
+            $('#donationAmount3').click(function(){
+                $('#otherAmount').hide();
+            })
+            $('#donationAmount4').click(function(){
+                $('#otherAmount').hide();
+            })
+            $('#donationAmount5').click(function(){
+                $('#otherAmount').hide();
+            })
+            $('#donationAmount6').click(function(){
+                $('#otherAmount').hide();
+            })
+        })
+    
+        $(document).ready(function() {
+            $('#amountOth2').click(function(){
+                $('#otherAmount2').show();
+            })
+    
+            $('#donationAm1').click(function(){
+                $('#otherAmount2').hide();
+            })
+    
+            $('#donationAm2').click(function(){
+                $('#otherAmount2').hide();
+            })
+            $('#donationAm3').click(function(){
+                $('#otherAmount2').hide();
+            })
+            $('#donationAm4').click(function(){
+                $('#otherAmount2').hide();
+            })
+            $('#donationAm5').click(function(){
+                $('#otherAmount2').hide();
+            })
+            $('#donationAm6').click(function(){
+                $('#otherAmount2').hide();
+            })
+        })
+
+        $(document).ready(function() {
+            $('#donateAnony').click(function(){
+                $('#dets').show();
+            })
+        })
+        
+       </script>
+</body>
+</html>

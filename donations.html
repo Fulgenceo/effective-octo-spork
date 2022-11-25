@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donations</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css">
+</head>
+<body>
+    <nav class="nav-bar">
+        <div class="nav-left">
+            <img src="images/redcross-logo.svg" alt="" class="navbar-logo">
+            <ul class="tel">
+                <li>
+                    <a target="_blank" href="tel:+254703037000">
+                        TEL: 
+                        <strong>
+                            <span class="text-dark">0703 037 000</span>
+                        </strong>
+                    </a>
+                </li>
+            </ul>
+            <ul class="toll">
+                <li>
+                    <a target="_blank" href="tel:+2541999">
+                        TOLL FREE HOTLINE: 
+                        <strong>
+                            <span class="text-dark">1199</span>
+                        </strong>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="social-links">
+            <a href="mailto:info@redcross.or.ke" target="_blank"><span class="ti-email"></span></a>
+            <a href="https://www.facebook.com/RedCrossKE" target="_blank"><span class="ti-facebook"></span></a>
+            <a href="https://www.instagram.com/redcrosske/" target="_blank" ><span class="ti-instagram"></span></a>
+            <a href="https://twitter.com/KenyaRedCross" target="_blank" ><span class="ti-twitter-alt"></span></a>
+            <a href="https://www.youtube.com/user/KenyaRedCross" target="_blank" ><span class="ti-youtube"></span></a>
+            <a href="https://www.flickr.com/photos/154940827@N06/" target="_blank" ><span class="ti-flickr-alt"></span></a>
+        </div>
+    </nav>
+
+    <div class="welcome-div">
+        <img src="images/images/header-bg-3.png" alt="">
+        <div class="welcome-text">
+            <h3>Support Our Cause</h3>
+            <p>Donate today to support humanitarian work around Kenya. In times of crisis, we meet the urgent needs of women, men, young and the old. Help enable a rapid response to disasters. Your contribution can make a difference.</p>
+        </div>
+    </div>
+
+    <div class="donations-card-div">
+        <div class="donations-info-div">
+            <img src="images/images/Mask Group 2.png" class="web-image" alt="" id="imgselecta">
+            <img src="images/don1.png" alt="" class="mobile-image" id="imgselecta">
+            <div class="donations-info-text">
+                <h3>Hunger Relief 2022</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit venenatis rhoncus, imperdiet penatibus eu primis pellentesque fermentum litora..</p>
+            </div>
+        </div>
+
+        <div class="donations-form-div">
+            <div class="donations-form-header">
+                <h6>STEP 1</h6>
+                <h2>Make a Donation</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit, torquent rhoncus pharetra tempus curabitur
+                </p>
+            </div>
+            <div class="donation-form-content">
+                <ul class="form-content-header">
+                    <li class="form-select-div">
+                        <div>
+                            <input type="radio" id="individual" name="person-type" value="individual">
+                            <label for="individual">Private Individual</label>
+                        </div>
+                        
+                        <div>
+                            <input type="radio" id="company" name="person-type" value="company">
+                            <label for="company">Company</label>
+                        </div>
+                    </li>
+                    <li class="form-select-div-select">
+                        <div>
+                            <label>Select a cause</label><br>
+                            <div class="selectSty">
+                                <select name="field4" class="field-select" id="selecta">
+                                    <option value="images/images/Mask Group 2.png">Hunger Relief 2020</option>
+                                    <option value="images/hunger.png">Hunger</option>
+                                    <option value="images/drought.png">Drought</option>
+                                </select> 
+                            </div>
+                        </div>
+                        <!-- <div>
+                            <label>Select a cause</label><br>
+                            <select name="field4" class="field-select">
+                                <option value="KES">KES</option>
+                                <option value="UGN">UGN</option>
+                                <option value="ZAI">ZAI</option>
+                            </select> 
+                        </div> -->
+                    </li>
+                </ul>
+                <ul>
+                    <li class="payment-tab-div">
+                        <input class="radio" id="one" name="group" type="radio" checked>
+                        <input class="radio" id="two" name="group" type="radio">
+                        <div class="tabs">
+                            <label class="tab" id="one-tab" for="one">ONE TIME DONATION</label>
+                            <label class="tab" id="two-tab" for="two">MONTHLY DONATION</label>
+                        </div>
+                        <div class="panels">
+                            <div class="panel" id="one-panel">
+                                <h4 class="donation-h5">Select an amount</h4>
+                                <div class="donation-amount" id="butnns">
+                                    <button class="donation-amount-button" onclick="active(this)" id="donationAmount1">KES 500</button>
+                                    <button class="donation-amount-button" onclick="active(this)" id="donationAmount2">KES 1000</button>
+                                    <button class="donation-amount-button" onclick="active(this)" id="donationAmount3">KES 2000</button>
+                                    <button class="donation-amount-button" onclick="active(this)" id="donationAmount4">KES 5000</button>
+                                    <button class="donation-amount-button" onclick="active(this)" id="donationAmount5">KES 10000</button>
+                                    <button class="donation-amount-button" onclick="active(this)" id="donationAmount6">KES 15000</button>
+                                    <button class="donation-amount-button" onclick="active(this)" id="amountOth">Other</button>
+                                </div>
+                                <div class="donation-input-div" id="otherAmount">
+                                    <h5 class="donation-h5">Enter your own amount</h5>
+                                    <input type="number" placeholder="KES 5,000" class="donation-input">
+                                </div>
+                                <div id="continue-button">
+                                    <button type="submit" class="donation-button" disabled>Continue</button>
+                                </div>
+                                
+                            </div>
+                            <div class="panel" id="two-panel">
+                                <h4 class="donation-h5">Select an amount</h4>
+                                <div class="donation-amount" id="butns">
+                                    <button class="donation-amount-button" onclick="active2(this)" id="donationAm1">KES 500</button>
+                                    <button class="donation-amount-button" onclick="active2(this)" id="donationAm2">KES 1000</button>
+                                    <button class="donation-amount-button" onclick="active2(this)" id="donationAm3">KES 2000</button>
+                                    <button class="donation-amount-button" onclick="active2(this)" id="donationAm4">KES 5000</button>
+                                    <button class="donation-amount-button" onclick="active2(this)" id="donationAm5">KES 10000</button>
+                                    <button class="donation-amount-button" onclick="active2(this)" id="donationAm6">KES 15000</button>
+                                    <button class="donation-amount-button" onclick="active2(this)" id="amountOth2">Other</button>
+                                </div>
+                                <div class="donation-input-div" id="otherAmount2">
+                                    <h5 class="donation-h5">Enter your own amount</h5>
+                                    <input type="number" placeholder="KES 5,000" class="donation-input">
+                                </div>
+                                <div id="continue-button">
+                                    <button type="submit" class="donation-button" disabled>Continue</button>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="volunteer-div">
+        <img src="images/images/Group 3996@2x.png" alt="">
+        <div class="volunteer-text">
+            <h3>You can make a Difference</h3>
+            <button>Volunteer</button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-col">
+                    <img src="images/redcross-logo.svg" alt="" class="footer-logo">
+                </div>
+                <div class="footer-col">
+                    <h4>About Us</h4>
+                    <div class="footer-col-row">
+                        <ul>
+                            <li><a href="https://www.redcross.or.ke/aboutus">About KRCS</a></li>
+                            <li><a href="https://www.redcross.or.ke/careers">Careers</a></li>
+                            <li><a href="https://www.redcross.or.ke/contactus">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>General</h4>
+                    <ul>
+                        <li><a href="https://www.redcross.or.ke/tenders">Tenders</a></li>
+                        <li><a href="https://www.redcross.or.ke/publications">Publications</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Affiliates</h4>
+                    <ul>
+                        <li><a target="_blank" href="http://www.icha.net/">ICHA</a></li>
+                        <li><a target="_blank" href="http://bomapanafrican.com/">Boma Panafrican</a></li>
+                    </ul>
+                </div>
+            </div>
+        
+
+            <div class="footer-bottom">
+                <p class="nov2">&copy;November 2022 <a href="#">, Kenya Red Cross Society</a>  </p>
+                <div class="footer-menu">
+                    <ul class="f-menu">
+                        <li><a target="_blank" href="https://www.redcross.or.ke/ASSETS/DATA-PROTECTION-POLICY.pdf">Privacy Policy</a></li>
+                        <li>|</li>
+                        <li><a target="_blank" href="https://media.ifrc.org/ifrc/">IFRC</a></li>
+                        <li>|</li>
+                        <li><a target="_blank" href="https://www.icrc.org/">ICRC</a></li>
+                        <li>|</li>
+                        <li><a target="_blank" href="https://ifrc.integrityline.org/">Report a concern</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+   </footer>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script>
+    var img = document.getElementById("imgselecta");
+
+    function setClass(e) {
+        var select = e.target;
+        img.src = select.options[select.selectedIndex].value;
+        return false;
+    }
+
+    document.getElementById("selecta").onchange = setClass;
+   </script>
+   <script>
+    function active(el) {
+        var btnn = document.getElementById('butnns').children;
+        for (let i = 0; i < btnn.length; i++) {
+            btnn[i].className = "donation-amount-button";
+        }
+        el.className = "donation-amount-button-active";
+    }
+
+    function active2(el) {
+        var btnn = document.getElementById('butns').children;
+        for (let i = 0; i < btnn.length; i++) {
+            btnn[i].className = "donation-amount-button";
+        }
+        el.className = "donation-amount-button-active";
+    }
+
+    $(document).ready(function() {
+        $('#amountOth').click(function(){
+            $('#otherAmount').show();
+        })
+
+        $('#donationAmount1').click(function(){
+            $('#otherAmount').hide();
+        })
+
+        $('#donationAmount2').click(function(){
+            $('#otherAmount').hide();
+        })
+        $('#donationAmount3').click(function(){
+            $('#otherAmount').hide();
+        })
+        $('#donationAmount4').click(function(){
+            $('#otherAmount').hide();
+        })
+        $('#donationAmount5').click(function(){
+            $('#otherAmount').hide();
+        })
+        $('#donationAmount6').click(function(){
+            $('#otherAmount').hide();
+        })
+    })
+
+    $(document).ready(function() {
+        $('#amountOth2').click(function(){
+            $('#otherAmount2').show();
+        })
+
+        $('#donationAm1').click(function(){
+            $('#otherAmount2').hide();
+        })
+
+        $('#donationAm2').click(function(){
+            $('#otherAmount2').hide();
+        })
+        $('#donationAm3').click(function(){
+            $('#otherAmount2').hide();
+        })
+        $('#donationAm4').click(function(){
+            $('#otherAmount2').hide();
+        })
+        $('#donationAm5').click(function(){
+            $('#otherAmount2').hide();
+        })
+        $('#donationAm6').click(function(){
+            $('#otherAmount2').hide();
+        })
+    })
+
+    $(document).ready(function() {
+    $("input[type=radio]").click(function() {
+        // Get the storedValue
+        var previousValue = $(this).data('storedValue');
+        // if previousValue = true then
+        //     Step 1: toggle radio button check mark.
+        //     Step 2: save data-StoredValue as false to indicate radio button is unchecked.
+        if (previousValue) {
+        $(this).prop('checked', !previousValue);
+        $(this).data('storedValue', !previousValue);
+        }
+        // If previousValue is other than true
+        //    Step 1: save data-StoredValue as true to for currently checked radio button.
+        //    Step 2: save data-StoredValue as false for all non-checked radio buttons. 
+        else{
+        $(this).data('storedValue', true);
+        $("input[type=radio]:not(:checked)").data("storedValue", false);
+        }
+    });
+    });
+   </script>
+
+</body>
+</html>
